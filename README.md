@@ -41,7 +41,7 @@ Um site divertido que gera desculpas hilárias e criativas para qualquer situaç
 
 1. Clone o repositório:
 \`\`\`bash
-git clone <url-do-repositorio>
+git clone https://github.com/OurDeploys/funny-excuse-d
 cd gerador-desculpas
 \`\`\`
 
@@ -101,7 +101,7 @@ Quer adicionar mais desculpas hilárias? Contribuições são bem-vindas!
 3. Adicione suas desculpas criativas no arquivo \`app/page.tsx\`
 4. Commit suas mudanças (\`git commit -m 'Adiciona desculpas épicas'\`)
 5. Push para a branch (\`git push origin feature/nova-desculpa\`)
-6. Abra um Pull Request
+6. Abra urepositoriom Pull Request
 
 ## 📝 Licença
 
