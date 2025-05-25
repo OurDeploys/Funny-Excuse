@@ -133,14 +133,17 @@ export default function ExcuseGenerator() {
     try {
       await navigator.clipboard.writeText(currentExcuse)
       toast({
-        title: "Desculpa copiada! 📋",
+        title: "Desculpa copiada com sucesso! 🎉",
         description: "Agora é só colar onde precisar! 😄",
+        className: "bg-gradient-to-r from-green-400 to-blue-500 text-white border-none",
+        duration: 3000,
       })
     } catch (err) {
       toast({
-        title: "Ops! 😅",
+        title: "Ops! Algo deu errado 😅",
         description: "Não consegui copiar. Tente selecionar o texto manualmente.",
         variant: "destructive",
+        duration: 3000,
       })
     }
   }
@@ -246,7 +249,7 @@ export default function ExcuseGenerator() {
 
                   <Button
                     onClick={shareOnTwitter}
-                    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full"
+                    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full border-2 border-white shadow-lg transform hover:scale-105 transition-all duration-200"
                   >
                     <Twitter className="mr-2 h-5 w-5" />
                     Compartilhar no Twitter
